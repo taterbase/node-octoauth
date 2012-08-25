@@ -1,4 +1,4 @@
-#OctoAuth
+#octOAuth
 
 A simple Node.js library for getting an Oauth token for Github with a username and password
 
