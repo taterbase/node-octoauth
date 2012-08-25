@@ -1,0 +1,29 @@
+{
+  "name": "octoauth",
+  "preferGlobal": "false",
+  "version": "0.0.1",
+  "author": "taterbase <taterbase@gmail.com>",
+  "description": "Simple OAuth token library for Github",
+  "contributors": [
+    {
+      "name": "taterbase",
+      "email": "taterbase@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "./lib/octoauth",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taterbase/node-octoauth.git"
+  },
+  "keywords": [
+    "github",
+    "oauth"
+  ],
+  "dependencies": {
+    "mocha": "~1.4.0",
+    "should": "~1.1.0"
+  }
+}

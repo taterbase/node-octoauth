@@ -14,7 +14,7 @@ node-octoauth
     |--index.js
 ```
 
-Inside you should expose an object with working username and password like so:
+Inside config/index.js you should expose an object with working username and password like so:
 
 ```javascript
 module.exports = {
