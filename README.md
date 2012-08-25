@@ -38,7 +38,7 @@ oa.scopes = ['gist', 'repo'];
 
 You can even mix and match
 
-``javascript
+```javascript
 var params = {
   username: 'taterbase',
   password: 'password'
