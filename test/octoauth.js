@@ -46,5 +46,11 @@ describe('octOAuth', function(){
     it('should return an oauth token', function(done){
       oa.getToken(done);
     });
+
+    it('should work if not scopes are provided', function(done){
+      var no_oa = new octOAuth(config);
+
+      no_oa.getToken(done);
+    });
   })
 });
