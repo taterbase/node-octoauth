@@ -1,6 +1,5 @@
 {
   "name": "octoauth",
-  "preferGlobal": "false",
   "version": "0.0.2",
   "author": "taterbase <taterbase@gmail.com>",
   "description": "Simple OAuth token library for Github",
