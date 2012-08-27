@@ -25,5 +25,6 @@
   "dependencies": {
     "mocha": "~1.4.0",
     "should": "~1.1.0"
-  }
+  },
+  "license" : "MIT"
 }

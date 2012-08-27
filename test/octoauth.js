@@ -6,6 +6,30 @@ describe('octOAuth', function(){
 
   describe('setup', function(){
 
+    it('should throw error if username not provided', function(done){
+      var oa = new octOAuth();
+
+      oa.password = config.password;
+      oa.getToken(function(err, token){
+        if(err && err.message === "No username provided")
+          done();
+        else
+          done(new Error("octOAuth should not work without a username."));
+      });
+    });
+
+    it('should throw error if password not provided', function(done){
+      var oa = new octOAuth();
+
+      oa.username = config.username;
+      oa.getToken(function(err, token){
+        if(err && err.message === "No password provided")
+          done();
+        else
+          done(new Error("octOAuth should not work without a username."));
+      });
+    });
+
     it('should accept a hash with parameters for scope, username and password', function(done){
       var scopes = [ 'gist' ];
       var params = {
